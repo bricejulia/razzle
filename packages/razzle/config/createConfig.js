@@ -66,7 +66,7 @@ module.exports = (
     console.log('Using .eslintrc defined in your app root');
   } else {
     mainEslintOptions.baseConfig = {
-      extends: [require.resolve('eslint-config-react-app')],
+      extends: [require.resolve('eslint-config-airbnb')],
     };
     mainEslintOptions.useEslintrc = false;
   }
